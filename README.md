@@ -12,7 +12,7 @@ This repository contains the code for training the Indi model, an image processi
 ## Getting Started
 
 ### Prerequisites
-List any prerequisites needed to run your project, such as Python version, libraries, etc. For example:
+List of libraries to run the project:
 - Python 3.8+
 - PyTorch
 - PIL
@@ -20,7 +20,6 @@ List any prerequisites needed to run your project, such as Python version, libra
 - tqdm
 
 ### Installation
-Provide steps to install any necessary libraries or set up the environment. For example:
 ```bash
 pip install torch numpy pillow tqdm
 ```
