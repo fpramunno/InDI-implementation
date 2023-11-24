@@ -6,6 +6,9 @@ This repository contains the code for training the Indi model, an image processi
 - `indi_diffusion.py`: Contains the Indi class and utility functions.
 - `modules.py`: Includes essential modules and classes used in the model.
 
+## Examples
+![](https://github.com/Piogeon/InDI-implementation/blob/main/example_CaII.png)
+
 ## Getting Started
 
 ### Prerequisites
