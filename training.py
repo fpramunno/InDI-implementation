@@ -183,7 +183,7 @@ for epoch in range(args.epochs):
         
         with autocast():
             fct = t[:, None, None, None]
-            transformed_image = (1-fct)*dirty + fct*clean
+            transformed_image = (1-fct)*clean + fct*dirty
             predicted_peak = model(transformed_image, labels, t)
             
             loss = mse(clean, predicted_peak)
@@ -218,7 +218,7 @@ for epoch in range(args.epochs):
             
             with autocast():
                 fct = t[:, None, None, None]
-                transformed_image = (1-fct)*dirty + fct*clean
+                transformed_image = (1-fct)*clean + fct*dirty
                 predicted_peak = model(transformed_image, labels, t)
                 
                 loss = mse(clean, predicted_peak)
